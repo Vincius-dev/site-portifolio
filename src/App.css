@@ -456,6 +456,9 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   top: 50%;
   opacity: 1;
 }
+.proj-linl{
+  text-decoration: none;
+}
 .proj-txtx h4 {
   font-size: 30px;
   font-weight: 700;
@@ -475,6 +478,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   width: 35%;
   right: 0;
   z-index: -4;
+
 }
 
 /************ Projects Css ************/

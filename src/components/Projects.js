@@ -3,6 +3,7 @@ import { ProjectCard } from "./ProjectCard";
 
 import colorSharp2 from "../assets/img/color-sharp2.png";
 import projImgTemplate from "../assets/img/project-img1.png";
+import projImgMedPlus from "../assets/img/projetoMedPlus.png";
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
 
@@ -11,9 +12,10 @@ export const Projects = () => {
 
     const projectFirst = [
         {
-            title: "Em breve",
-            description: "Em Desenvolvimento",
-            imgUrl: projImgTemplate,
+            title: "Projeto MedPlus",
+            description: "Um sistema de agendamento de consultas. Feito com Angular e Node.",
+            imgUrl: projImgMedPlus,
+            link: "https://www.youtube.com/watch?v=gfEEJ9Umv1Q"
         },
         {
             title: "Em breve",
