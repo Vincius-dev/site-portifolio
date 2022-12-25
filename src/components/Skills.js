@@ -1,8 +1,12 @@
 import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
-import meter1 from "../assets/img/meter1.svg";
-import meter2 from "../assets/img/meter2.svg";
-import meter3 from "../assets/img/meter3.svg";
+import meter1 from "../assets/img/React-icon.png";
+import meter2 from "../assets/img/Angular-logo.png";
+import meter3 from "../assets/img/Nextjs-logo.png";
+import meter4 from "../assets/img/github.svg";
+import meter5 from "../assets/img/Node.js_logo.png";
+
+
 import colorSharp from "../assets/img/color-sharp.png";
 
 import { Container, Row, Col } from "react-bootstrap"; 
@@ -35,25 +39,29 @@ export const Skills = () => {
                     <Col>
                         <div className="skill-bx">
                             <h2>
-                                Skills
+                                Habilidades
                             </h2>
-                            <p>Uma frase aqui</p>                            
+                            <p>"É genial festejar o sucesso, mas é mais importante aprender com as lições do fracasso." - Bill Gates</p>                            
                             <Carousel responsive={responsive} infinite={true} className="skill-slider">
                                 <div className="item">
-                                    <img src={meter1} alt="Meter1" />
-                                    <h5> Web Development</h5>
+                                    <img src={meter1} alt="React.JS logo" />
+                                    <h5> React JS</h5>
                                 </div>
                                 <div className="item">
-                                    <img src={meter2} alt="Meter2" />
-                                    <h5>Brand Identity</h5>
+                                    <img src={meter5} alt="Node.JS logo" />
+                                    <h5>Node JS</h5>
                                 </div>
                                 <div className="item">
-                                    <img src={meter3} alt="IMeter3" />
-                                    <h5>Logo Design</h5>
+                                    <img src={meter3} alt="Next.JS logo" />
+                                    <h5>Next JS</h5>
                                 </div>
                                 <div className="item">
-                                    <img src={meter1} alt="Meter1" />
-                                    <h5> Web Development</h5>
+                                    <img src={meter4} alt="Github logo" />
+                                    <h5> Github</h5>
+                                </div>
+                                <div className="item">
+                                    <img src={meter2} alt="Angular.JS logo" />
+                                    <h5>Angular JS</h5>
                                 </div>
                             </Carousel>
                         </div>

@@ -14,10 +14,10 @@ import {
 export const Banner = () => {
     const [loopNum, setLoopNum] = useState(0);
     const [isDeleting, setIsDeleting] = useState(false);
-    const toRotate = ["Web Developer", "Web Designer", "UI/UX Designer"];
+    const toRotate = ["Desenvolvedor Full Stack"];
     const [text, setText] = useState('');
     const [index, setIndex] = useState(1);
-    const [delta, setDelta] = useState(300 - Math.random() * 100);
+    const [delta, setDelta] = useState(200 - Math.random() * 100);
     const period = 500;
 
     useEffect(() => {
@@ -63,11 +63,11 @@ export const Banner = () => {
                         <TrackVisibility>
                         {({ isVisible}) =>
                           <div className={isVisible ? "animated_animated animate_fadeIn" : ""}>
-                            <span className="tagline">Welcome to my Portfolio</span>
-                            <h1>{`Hi i'm webdecoded `}<span className="wrap">{text}</span></h1>
+                            <span className="tagline">Bem-Vindo ao meu Portifolio</span>
+                            <h1>{`Ola meu nome é Vinicius e sou um `}<span className="wrap">{text}</span></h1>
                             <p></p>
                             <HashLink to='#connect'>
-                              <button>Let's connect <ArrowRightCircle size={25} /></button>
+                              <button>Entre em contato <ArrowRightCircle size={25} /></button>
                             </HashLink>
                           </div>}
                         </TrackVisibility>
